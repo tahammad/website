@@ -383,42 +383,68 @@ article .icon {
 /* CONTACT */
 
 #contact {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 70vh;
-}
-
-.contact-info-upper-container {
-  display: flex;
-  justify-content: center;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
-}
-
-.contact-info-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
-}
-
-.contact-info-container p {
-  font-size: larger;
-}
-
-.contact-icon {
-  cursor: default;
-}
-
-.email-icon {
-  height: 2.5rem;
-}
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250); /* Corrected the background value */
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* Increased gap for better spacing */
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+  }
+  
+  /* Separate Buttons with Black Borders */
+  
+  .contact-btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 2px solid black; /* Separate black borders for each button */
+    background-color: transparent;
+  }
+  
+  .contact-btn:hover {
+    background-color: rgb(250, 250, 250); /* Light hover effect */
+  }
+  
+  .email-btn, .linkedin-btn {
+    border: 2px solid black; /* Apply separate black borders */
+    padding: 1rem 2rem;
+    background-color: transparent;
+  }
+  
+  .email-btn:hover, .linkedin-btn:hover {
+    background-color: rgb(250, 250, 250); /* Light hover effect */
+  }
+  
 
 /* FOOTER SECTION */
 
